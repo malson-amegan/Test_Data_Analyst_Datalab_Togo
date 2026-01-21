@@ -1,27 +1,23 @@
-# 🇹🇬 Optimisation du Réseau de Services Publics au Togo
-**Candidat :** Malson AMEGAN | **Rôle :** Data Analyst (Test Pratique)
+# Optimisation des Services Publics - Togo Datalab
 
-## 📌 Contexte du Projet
-Ce projet vise à analyser la délivrance des documents officiels (CNI, Passeports, Actes de naissance) au Togo. L'objectif est d'identifier les zones de saturation, d'évaluer l'équité territoriale et de proposer des recommandations basées sur la donnée.
+Ce dépôt contient l'intégralité des travaux réalisés dans le cadre du test pratique pour le poste de **Data Analyst**.
 
-## 🛠️ Stack Technique
-- **Analyse :** Python (Pandas, Matplotlib, Seaborn)
-- **Calculs :** SQL (Requêtes de pilotage KPI)
-- **Visualisation :** Streamlit (Dashboard interactif)
-- **Versionnage :** Git / GitHub
+## 📊 Aperçu du Projet
+L'objectif est d'analyser les données de délivrance des documents officiels pour identifier les goulots d'étranglement et proposer des solutions d'équité territoriale.
 
-## 📂 Structure du Dépôt
-- `notebooks/` : Analyse exploratoire (EDA) et nettoyage des données.
-- `scripts/` : Code source du Dashboard interactif.
-- `KPIs/` : Définition, objectifs et règles de calcul des 6 indicateurs clés.
-- `reports/` : Rapport de synthèse et présentation PowerPoint destinée aux décideurs.
+## 🚀 Contenu du Dépôt
+- **Analyse Exploratoire (EDA) :** Traitement des données, gestion des valeurs manquantes (23% de rejets inconnus identifiés) et visualisations avec Python.
+- **KPI de Pilotage :** Définition de 6 indicateurs clés avec règles de calcul et requêtes SQL.
+- **Dashboard Interactif :** Application Streamlit permettant de visualiser les performances par région et par centre.
+- **Restitution :** Rapport de synthèse et présentation PowerPoint orientée décision stratégique.
 
-## 🚀 Installation et Utilisation
-1. Cloner le dépôt : `git clone https://github.com/ton-profil/test-datalab.git`
-2. Installer les dépendances : `pip install -r requirements.txt`
-3. Lancer le dashboard : `streamlit run scripts/app_dashboard.py`
+## 📈 Résultats Clés
+- **DMT Global :** 23 jours en moyenne.
+- **Point Critique :** Le centre CT054 présente un temps d'attente record de 119 minutes.
+- **Recommandation :** Déploiement d'unités mobiles dans la région des Savanes (500 km de la capitale).
 
-## 💡 Principaux Enseignements
-- **Délai moyen :** 23 jours (Le passeport est le document le plus critique).
-- **Alerte :** Le centre CT054 présente un temps d'attente moyen de 119 minutes.
-- **Accessibilité :** Corrélation forte entre infrastructure électrique et taux de rejet des dossiers.
+## 🛠️ Technologies Utilisées
+- Python (Pandas, Plotly, Seaborn)
+- SQL
+- Streamlit
+- Git
